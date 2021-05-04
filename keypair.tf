@@ -172,8 +172,8 @@ resource "aws_s3_bucket_object" "object" {
 
   bucket = aws_s3_bucket.kk-fayaz.bucket
  
-  key    = "fayaz.jpg"
-  source = "server_img/fayaz.jpg"
+  key    = "Sample.jpg"
+  source = "server_img/Sample.jpg"
 	  
   content_type = "image/jpg"
   acl    = "public-read"
