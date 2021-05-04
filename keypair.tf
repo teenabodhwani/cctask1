@@ -148,7 +148,7 @@ resource "aws_s3_bucket" "kk-fayaz" {
  
 
   provisioner "local-exec" {
-        command     = "git clone https://github.com/fayazlinux/cctask1.git server_img"
+        command     = "git clone clone https://github.com/teenabodhwani/cctask1.git server_img"
     }
 
 
