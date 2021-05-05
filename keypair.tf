@@ -133,7 +133,7 @@ resource "null_resource" "nullremote2" {
    "sudo mkfs.ext4 /dev/xvdd",
    "sudo mount /dev/xvdd /var/www/html",
    "sudo rm -rf /var/www/html/*",
-   "sudo git clone https://github.com/fayazlinux/cctask1.git   /var/www/html/"
+   "sudo git clone https://github.com/teenabodhwani/cctask1.git   /var/www/html/"
          ]
    }
 }
